@@ -1,0 +1,102 @@
+.bg-clean-4pet {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../assets/background-clean-4pet-1300x850.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-clean-4pet::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(56, 55, 55, 0.85);
+}
+
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #F0F0F5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.register-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.register-container .content .forms {
+    width: 50%;
+    height: 412px;
+}
+
+.register-container .content .button-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container .content .button-forms button {
+    margin: 2px;
+}
+
+.register-container .content .forms form {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+.register-container .content .forms form input {
+    margin-top: 8px;
+}
+
+.register-container .content .forms form .input-group {
+    display: flex;
+}
+
+.register-container .content .forms form .input-group input + input {
+    margin-left: 8px;
+}
